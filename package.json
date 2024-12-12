@@ -1,0 +1,26 @@
+{
+  "name": "dswu02productsrest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "facturapi": "^4.4.2",
+    "firebase-admin": "^13.0.1",
+    "mongoose": "^8.8.4",
+    "node-mailjet": "^6.0.6",
+    "puppeteer": "^23.10.3",
+    "stripe": "^17.4.0",
+    "twilio": "^5.3.7"
+  }
+}

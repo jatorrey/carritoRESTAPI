@@ -1,0 +1,15 @@
+Crear un archivo .env con los siguientes parametros:
+
+MONGO_URI (donde va a ir el enlace de conexion a la base de datos MongoDB)
+PORT (donde va a ir el puerto de la app)
+STRIPE_PUBLIC_KEY
+STRIPE_SECRETE_KEY
+FIREBASE_JSON_PATH (este es la direccion para el import del archivo json de firebase)
+FIREBASE_DATABASE_URL
+MAILJET_PUBLIC_KEY
+MAILJET_SECRET_KEY
+TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN
+FACTURAPI_KEY
+
+Ademas, crear una coleccion para pruebas ya sea en POSTMAN o en INSOMNIA para que ejecuten las acciones del proyecto.
